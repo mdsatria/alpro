@@ -1,3 +1,5 @@
+// created by Made Satria Wibawa 2020
+
 // import library untuk fungsi input output
 #include <iostream>
 // gunakan namespace pada iostream
