@@ -5,17 +5,26 @@
 // gunakan namespace pada iostream
 using namespace std;
 
+// deklarasi fungsi printArray
 void printArray(int arr[], int size);
 
 
 // fungsi utama
 int main()
 {
+    // inisialisasi data input ke dalam variabel A
     int A[] = {5,3,2,4,1};
+    // hitung jumlah elemen array A
     int size = sizeof(A)/sizeof(A[0]);
+    // inisialisasi variabel yang dibutuhkan untuk proses sorting
+    // i dan j untuk looping, temp untuk proses swap nilai
     int i, j, temp;
 
+    // tampilkan data input, yaitu array A
     printArray(A, size);
+
+
+    /*BUBBLE SORT*/
 
     for (i=0; i<size-1; i++)
     {
@@ -29,6 +38,9 @@ int main()
             }
         }
     }
+    /*END OF BUBBLE SORT*/
+
+    // tampilkan hasil sorting
     printArray(A, size);
 }
 

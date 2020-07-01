@@ -8,7 +8,7 @@ using namespace std;
 // fungsi utama
 int main()
 {
-    // deklarasi variabel a dengan tipe integer
+    // inisialisasi variabel a dengan tipe integer
     int a, b, temp;
 
     // assign nilai 1 ke variabel a
