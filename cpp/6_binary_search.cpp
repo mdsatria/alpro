@@ -34,7 +34,7 @@ int main()
         cout << "Bilangan " << num_1 << " tidak ditemukan pada array A!" << endl;
     }
 
-    // gunakan fungsi linearSeach. tempat mencari di array A dengan elemen sebanyak 5, yang dicari adalah num_2 (10)
+    // gunakan fungsi binarySeach. tempat mencari di array A dengan elemen sebanyak 5, yang dicari adalah num_2 (10)
     hasil = binarySearch(A, 5, num_2);
     // kondisi jika data yang dicari ada di array A
     if (hasil!=-1)

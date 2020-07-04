@@ -13,15 +13,20 @@ int main()
 {
     int A[] = {5,3,2,4,1};
     int size = sizeof(A)/sizeof(A[0]);
-    int i, j, temp;
+    
 
     printArray(A, size);
 
+    /*SELECTION SORT*/
+    int i, j, temp, jMin;
+
     for (i=0; i<size-1; i++)
     {
-        int jMin = i;
+        // inisialisasi jMin dengan index ke-i
+        jMin = i;
         for (j=i+1; j<size; j++)
         {
+            //
             if (A[j]<A[jMin])
             {
                 jMin = j;
@@ -34,6 +39,7 @@ int main()
             A[jMin] = temp;
         }
     }
+    /*END OF SELECTION SORT*/
 
     printArray(A, size);
 }
