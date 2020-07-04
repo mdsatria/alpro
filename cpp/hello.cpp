@@ -3,6 +3,11 @@
 // gunakan namespace pada iostream
 using namespace std;
 
+void printArray()
+{
+	
+}
+
 // fungsi utama
 int main()
 {
