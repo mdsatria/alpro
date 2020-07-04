@@ -1,4 +1,6 @@
 # Algoritma dan Pemrograman
 
 Repositori untuk materi algoritma dan pemrograman\
-Tools untuk C++ programming : https://sourceforge.net/projects/orwelldevcpp/
+
+    1. C++ Compiler & IDE : https://sourceforge.net/projects/orwelldevcpp/
+    2. Dokumentasi C++ : http://cplusplus.com/doc/tutorial/
