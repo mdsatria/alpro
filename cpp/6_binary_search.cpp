@@ -14,13 +14,13 @@ int main()
     // data array yang digunakan untuk tempat mencari nilai
     int A[] = {1,1,2,3,4,5};
     int s = sizeof(A) / sizeof(A[0]);
-    // dua nilai yang akan dicari, yaitu num_1 = 2 dan num_2 = 10
+    // dua nilai yang akan dicari, yaitu num_1 = 1 dan num_2 = 10
     int num_1 = 1;
     int num_2 = 10;
      // variabel menampung indeks hasil pencarian
     int hasil;
 
-    // gunakan fungsi linearSeach. tempat mencari di array A dengan elemen sebanyak 5, yang dicari adalah num_1 (2)
+    // gunakan fungsi linearSeach. tempat mencari di array A dengan elemen sebanyak 5, yang dicari adalah num_1 (1)
     hasil = binarySearch(A, s, num_1);
     // kondisi jika data yang dicari ada di array A
     if (hasil!=-1)
@@ -99,7 +99,7 @@ int binarySearch(int arr[], int size, int num)
         }
     }
     // kembalikan nilai default hasil (-1).
-    // artinya perulangan telah selesai sampai elemen akhir pada 'arr', data tidak ditemukan
+    // artinya perulangan telah selesai pada semua elemen 'arr', data tidak ditemukan
     return result;
 }
 
