@@ -2,24 +2,26 @@
 
 // import library untuk fungsi input output
 #include <iostream>
+#include "utils.cpp"
 // gunakan namespace pada iostream
 using namespace std;
 
+// deklarasi fungsi printArray
 void printArray(int arr[], int size);
 
 
 // fungsi utama
 int main()
 {
+    // deklarasi variabel
     int A[] = {5,3,2,4,1};
-    int size = sizeof(A)/sizeof(A[0]);
-    
+    int size = sizeof(A)/sizeof(A[0]);    
 
+    // tampilkan array
     printArray(A, size);
 
     /*SELECTION SORT*/
     int i, j, temp, jMin;
-
     for (i=0; i<size-1; i++)
     {
         // inisialisasi jMin dengan index ke-i
@@ -41,17 +43,6 @@ int main()
     }
     /*END OF SELECTION SORT*/
 
+    // tampilkan hasil sorting
     printArray(A, size);
-}
-
-void printArray(int arr[], int size)
-{
-    int i;
-
-    cout << "Nilai array adalah = ";
-    for (i=0; i<size; i++)
-    {
-        cout << arr[i] << " "; 
-    }
-    cout << endl;
 }

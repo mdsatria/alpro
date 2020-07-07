@@ -2,6 +2,7 @@
 
 // import library untuk fungsi input output
 #include <iostream>
+#include "utils.cpp"
 // gunakan namespace pada iostream
 using namespace std;
 
@@ -25,7 +26,6 @@ int main()
 
 
     /*BUBBLE SORT*/
-
     for (i=0; i<size-1; i++)
     {
         for (j=0; j<size-1; j++)
@@ -42,16 +42,4 @@ int main()
 
     // tampilkan hasil sorting
     printArray(A, size);
-}
-
-void printArray(int arr[], int size)
-{
-    int i;
-
-    cout << "Nilai array adalah = ";
-    for (i=0; i<size; i++)
-    {
-        cout << arr[i] << " "; 
-    }
-    cout << endl;
 }
