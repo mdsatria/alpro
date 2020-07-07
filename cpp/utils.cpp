@@ -9,7 +9,6 @@ void printArray(int arr[], int size)
 {
     int i;
 
-    cout << "Nilai array adalah = ";
     for (i=0; i<size; i++)
     {
         cout << arr[i] << " "; 
