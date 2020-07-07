@@ -1,5 +1,3 @@
-// created by Made Satria Wibawa 2020
-
 // import library untuk fungsi input output
 #include <iostream>
 // gunakan namespace pada iostream
@@ -7,7 +5,6 @@ using namespace std;
 
 int recPerkalian(int a, int b);
 int recFactorial(int a);
-
 
 // fungsi utama
 int main()
