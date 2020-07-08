@@ -6,22 +6,24 @@ using namespace std;
 // fungsi utama
 int main()
 {
-    // deklarasi variabel counter untuk for loop
-    int i;
     // perulangan sebanyak 5 kali
-    for (i=0; i<5; i++)
+    for (int i=0; i<5; i++)
     {
         cout << "Perulangan menggunakan for. Perulangan ke-" << i+1 << endl;
     }
 
-
-    // deklarasi variabel counter untuk while loop
-    int j = 0;
+    // deklarasi variabel counter dan kondisi untuk while loop
+    bool cond = true;
+    int j = 1;
     // perulangan sebanyak 5 kali. 
-    while (j<5)
+    while (cond)
     {
-        cout << "Perulangan menggunakan while. Perulangan ke-" << j+1 << endl;
+        cout << "Perulangan menggunakan while. Perulangan ke-" << j << endl;
         j++;
+        if(j>5)
+        {
+            cond = false;
+        }
     }
     
     

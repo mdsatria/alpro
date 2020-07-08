@@ -11,11 +11,9 @@ int linearSearch(int arr[], int size, int num)
     // deklarasi variabel hasil untuk menampung hasil pencarian. 
     // nilai default adalah -1
     int hasil = -1;
-    // deklarasi variabel i  untuk counter
-    int i = 0;
 
     // perulangan sebanyak jumlah elemen di 'arr'
-    for (i=0; i<size; i++)
+    for (int i=0; i<size; i++)
     {
         // bandingkan nilai 'num' dengan larik 'arr' pada indeks ke-i. TRUE jika sama
         if (num==arr[i])

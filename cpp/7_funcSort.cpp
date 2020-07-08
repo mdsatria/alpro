@@ -1,10 +1,10 @@
 void bubbleSort(int arr[], int size)
 {
-    int i, j, temp;
+    int temp;
 
-    for(i=0; i<size-1; i++)
+    for(int i=0; i<size-1; i++)
 	{
-		for(j=0; j<size-1; j++)
+		for(int j=0; j<size-1; j++)
 		{
 			if(arr[j]>arr[j+1])
 			{
@@ -37,12 +37,12 @@ void insertionSort(int arr[], int size)
 
 void selectionSort(int arr[], int size)
 {
-    int i, j, temp, jMin;
-    for (i=0; i<size-1; i++)
+    int temp, jMin;
+    for (int i=0; i<size-1; i++)
     {
         // inisialisasi jMin dengan index ke-i
         jMin = i;
-        for (j=i+1; j<size; j++)
+        for (int j=i+1; j<size; j++)
         {
             //
             if (arr[j]<arr[jMin])

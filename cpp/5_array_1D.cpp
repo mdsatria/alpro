@@ -8,9 +8,8 @@ int main()
 {
     
     int A[5] = {3, 4, 5, 6, 2};
-    int i;
     
-    for (i=0; i<5; i++)
+    for (int i=0; i<5; i++)
     {
         cout << A[i] << " " ;
     }
