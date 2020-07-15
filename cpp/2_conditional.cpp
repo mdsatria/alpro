@@ -79,5 +79,8 @@ int main()
         case 12:
             cout << "Desember";
             break;
+        default:
+            cout << "Input salah";
+            break;
     }
 }
