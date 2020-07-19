@@ -1,6 +1,6 @@
 #include <iostream>
 #include "7_funcSort.cpp"
-#include "utils.cpp"
+#include "5_funcArray.cpp"
 using namespace std;
 
 int main()
