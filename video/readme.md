@@ -4,3 +4,4 @@
 2. **[Notasi Algoritmik dan Pemrograman Sekuensial](https://web.microsoftstream.com/video/4880a098-0235-45c4-afc9-6793c6aced13)**
 3. **[Conditional Programming](https://web.microsoftstream.com/video/1b27e1e6-afe0-43a3-8f66-84caeb784bd3)**
 4. **[Perulangan/Looping](https://web.microsoftstream.com/video/f97c3bcc-35c3-4890-bcab-3be2710cbc62)**
+5. **[Function dan Procedure](https://web.microsoftstream.com/video/bcc841d6-7142-4aad-abe1-243110dc49f2)**
