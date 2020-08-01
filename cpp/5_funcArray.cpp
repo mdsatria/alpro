@@ -63,3 +63,18 @@ void reverseArray(int arr[], int size)
 		end--;
 	}
 }
+
+
+// procedure membaca array dari user
+// array arr harus ditentukan panjang elemennnya
+// contoh penggunaan
+// int A[5];
+// readArray(A, 5);
+void readArray(int arr[], int size)
+{
+	for(int i = 0; i < size; i++)
+	{
+		cout << "Masukkan array index ke-" << i << " : ";
+		cin >> arr[i];
+	}
+}
