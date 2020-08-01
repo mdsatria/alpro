@@ -14,9 +14,9 @@ int main()
     // panggil procedure readArray() untuk memasukkan input dari user ke array A
     readArray(A, n);
     // panggil procedure printArray() untuk mencetak semua nilai dari array A
-	printArray(A, n);
+    printArray(A, n);
     // panggil function findMax() untuk mencari kemudian tampilkan nilai terbesar di array A
-	cout << "Bilangan terbesar adalah : " << findMax(A, n) << endl;
+    cout << "Bilangan terbesar adalah : " << findMax(A, n) << endl;
     // panggil function findMin() untuk mencari kemudian tampilkan nilai terkecil di array A
     cout << "Bilangan terkecil adalah : " << findMin(A, n) << endl;
     // panggil procedure reverseArray() untuk membalikkan posisi elemen pada array A
