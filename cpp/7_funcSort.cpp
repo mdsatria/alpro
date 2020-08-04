@@ -29,9 +29,9 @@ void insertionSort(int arr[], int size)
             arr[j] = arr[j-1];
             arr[j-1] = temp;
 
-            j = j -1;
+            j--;
         }
-        i = i + 1;
+        i++;
     }   
 }
 
