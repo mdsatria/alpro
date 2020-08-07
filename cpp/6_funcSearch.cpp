@@ -59,10 +59,12 @@ int binarySearch(int arr[], int size, int num)
         {
             // jika sama maka hasil diubah nilainya dengan middle
             result = middle;
+            // cek apakah ada nilai sebelumnya yang sama
+            right = middle - 1;
         }
-
+        // jika nilai pada index middle tidak sama
         // cek apakah nilai 'num' lebih besar daripada nilai 'arr' pada indeks ke-middle. TURE jika lebih besar
-        if (num>arr[middle])
+        else if (num>arr[middle])
         {
             // jika kondisi benar maka indeks pertama sub-array menjadi middle+1
             left = middle + 1;
