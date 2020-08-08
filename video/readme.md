@@ -7,3 +7,4 @@
 5. **[Function dan Procedure](https://web.microsoftstream.com/video/bcc841d6-7142-4aad-abe1-243110dc49f2)**
 6. **[Array](https://web.microsoftstream.com/video/46505ee3-ab9a-437e-93f8-de1d777a41bb)**
 7. **[Sorting](https://web.microsoftstream.com/video/cffe710f-600f-4797-949c-ec600456bd8d)**
+8. **[Searching](https://web.microsoftstream.com/video/0010c625-76cb-44df-b6b3-7994c0e59fd9)**
