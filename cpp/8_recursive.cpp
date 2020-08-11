@@ -1,5 +1,6 @@
 // import library untuk fungsi input output
 #include <iostream>
+#include "8_funcRecursion.cpp"
 // gunakan namespace pada iostream
 using namespace std;
 
@@ -9,39 +10,17 @@ int recFactorial(int a);
 // fungsi utama
 int main()
 {
-    int hasil;
+    int hasilFactorial, hasilKali, varFact, a, b;
     //hasil = recPerkalian(0, 2);
     //cout << hasil << endl;
 
-    hasil = recFactorial(8);
-    cout << hasil << endl;
-}
+    varFact = 8;
+    hasilFactorial = recFactorial(varFact);
+    cout << "Hasil factorial dari 8 adalah " << hasilFactorial << endl;
 
-int recPerkalian(int a, int b)
-{
-    if (b==0)
-    {
-        return 0;
-    }
-    else if (b==1)
-    {
-        return a;
-    }
-    else
-    {
-        return a + recPerkalian(a, b-1);
-    }    
-}
-
-int recFactorial(int a)
-{
-    if ((a==0) || (a==1))
-    {
-        return 1;
-    }
-    else 
-    {
-        return a *  recFactorial(a-1);
-    }
+    a = 5; 
+    b = 3;
+    hasilKali = recPerkalian(a, b);
+    cout << "Hasil perkalian dari bilangan " << a << " dan " << b << " adalah : " << hasilKali << endl;
 
 }
