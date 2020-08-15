@@ -3,19 +3,19 @@
 int recPerkalian(int a, int b)
 {
     // base case
-    if (b==0)
+    if (a == 0)
     {
         return 0;
     }
     // base case
-    else if (b==1)
+    else if (a == 1)
     {
-        return a;
+        return b;
     }
     else
     {
         // recursion
-        return a + recPerkalian(a, b-1);
+        return b + recPerkalian(a-1, b);
     }    
 }
 
@@ -25,7 +25,7 @@ int recPerkalian(int a, int b)
 int recFactorial(int a)
 {
     // base case
-    if ((a==0) || (a==1))
+    if (a == 0)
     {
         return 1;
     }
